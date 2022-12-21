@@ -1,22 +1,27 @@
 //site color variables
-$body-color: #fff;
-$primary-color: #97d289;
+$body-color: #ffffff;
+$primary-color: #cb997e;  // from color palette
+// $primary-color: #97d289;
 // $primary-color: #AAE79B;
 // $primary-color: #FFC09F;
 // $primary-color: #EAA4A4;
 $darker-primary-color: darken($color: $primary-color, $amount: 10);
-$secondary-color: #FFC09F;
+$secondary-color: #6b705c;  // from color palette
+// $secondary-color: #FFC09F;
 // $secondary-color: #AAE79B;
 // $secondary-color: #ADD6D2;
 $darker-secondary-color: darken($color: $secondary-color, $amount: 10);
 $nav-accent-color: $primary-color;
-$text-color: #9D9EA5;
-$text-color-dark: #00113E;
+$text-color: #a5a58d;  // from color palette
+// $text-color: #9D9EA5;
+$text-color-dark: #3f4238;  // from color palette
+// $text-color-dark: #00113E;
 $site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
-$off-white: #FFFFEAFF; // yellow-based
+$off-white: #ffe8d6; // cream, from color palette
+// $off-white: #FFFFEAFF; // yellow-based
 // $off-white: #FBF3EF; // orange-red-based
 // $off-white: #F7F9FF; // blue-based
-$gray: #F7F9FF;
+// $gray: #b7b7a4;
 $dark-gray: #646569;
 
 // solid colors
