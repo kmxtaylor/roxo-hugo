@@ -64,7 +64,7 @@
   background: $primary-color;
   color: $white;
   &:hover{
-    background: darken($color: $primary-color, $amount: 10);
+    background: $darker-primary-color;
   }
 }
 
@@ -73,5 +73,13 @@
   color: $white;
   &:hover{
     background: darken($color: $secondary-color, $amount: 10);
+  }
+}
+
+.nav-btn{
+  background: $nav-accent-color;
+  color: $white;
+  &:hover{
+    background: darken($color: $nav-accent-color, $amount: 10);
   }
 }

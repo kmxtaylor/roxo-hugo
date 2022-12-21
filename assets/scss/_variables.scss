@@ -1,10 +1,21 @@
 //site color variables
 $body-color: #fff;
-$primary-color: #EAA4A4;
-$secondary-color: #ADD6D2;
+$primary-color: #97d289;
+// $primary-color: #AAE79B;
+// $primary-color: #FFC09F;
+// $primary-color: #EAA4A4;
+$darker-primary-color: darken($color: $primary-color, $amount: 10);
+$secondary-color: #FFC09F;
+// $secondary-color: #AAE79B;
+// $secondary-color: #ADD6D2;
+$darker-secondary-color: darken($color: $secondary-color, $amount: 10);
+$nav-accent-color: $primary-color;
 $text-color: #9D9EA5;
 $text-color-dark: #00113E;
 $site-ease: cubic-bezier(0.36, 0.03, 0, 0.91);
+$off-white: #FFFFEAFF; // yellow-based
+// $off-white: #FBF3EF; // orange-red-based
+// $off-white: #F7F9FF; // blue-based
 $gray: #F7F9FF;
 $dark-gray: #646569;
 

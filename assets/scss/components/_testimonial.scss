@@ -1,5 +1,5 @@
-.site-testimonial{
-  background: $gray;
+.site-testimonial, .site-motivation {
+  background: $off-white;
   padding: 100px 0;
   overflow: hidden;
   &-item{
@@ -37,6 +37,18 @@
     &-body{
       margin-bottom: 0;
       font-weight: 300;
+    }
+  }
+
+  .stats {
+    text-align: center;
+
+    #line-graph {
+      max-width: 300px;
+    }
+
+    .caption {
+      text-align: center; padding-top: 3rem;
     }
   }
 }
