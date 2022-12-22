@@ -1,0 +1,29 @@
+.site-motivation {
+  background: $off-white;
+  padding: 100px 0;
+  overflow: hidden;
+
+  .emphasize {
+    color: $text-color-dark;
+    font-size: 20px;
+  }
+
+  .top-section {
+    padding-bottom: 20px;
+  }
+
+  .img-container {
+    text-align: center;
+
+    img {
+      padding: 20px 0px;
+      max-width: 100%;
+      max-height: 300px;
+    }
+  }
+
+  p {
+    color: $text-color;
+    // color: $text-color-dark;
+  }
+}
