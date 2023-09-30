@@ -16,6 +16,9 @@
     }
     &-title{
       color: $white;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: 'montserrat', sans-serif;
       margin-bottom: 30px;
       @include desktop{
         margin-bottom: 20px;
